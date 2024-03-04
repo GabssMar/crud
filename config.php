@@ -10,7 +10,7 @@ $dbUser = 'gabi';
 $dbPass = 'senha';
 
 try {
-    $conn = mysqli_connect($dbHOst, $dbUser, $dbPass, $dbName);   
+    $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 } catch (\Throwable $th) {
     throw $th;
 }
